@@ -1,46 +1,9 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# 비트코인 정보 알려주는 사이트
+노마드코더 React JS 마스터클래스 #4 CRYPTO TRACKER 강의를 들으면서 제작하였습니다.
+## 주요화면
+![Home](https://user-images.githubusercontent.com/62588402/175773316-55ee7690-063e-45b7-90ca-98c49c9fe99d.PNG)
+![Coin](https://user-images.githubusercontent.com/62588402/175773317-25fc184f-63b8-4b61-b67e-15c5418061a9.PNG)
+![Chart](https://user-images.githubusercontent.com/62588402/175773319-99dfc8cd-ebad-4c1c-9f28-c00652df3905.PNG)
+![Price](https://user-images.githubusercontent.com/62588402/175773320-309762c4-04aa-41bb-964b-dc60933c72ba.PNG)
+## 주요기술
+React, 타입스크립트, ReactQuery
