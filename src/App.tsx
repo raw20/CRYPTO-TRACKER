@@ -1,5 +1,6 @@
 import Router from "./routes/Router";
-import styled, { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from "styled-components";
+import { ReactQueryDevtools } from "react-query/devtools";
 
 const GlobalStyle = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
@@ -64,6 +65,9 @@ function App() {
     <>
       <GlobalStyle />
       <Router />
+      <ReactQueryDevtools initialIsOpen={true} />
+      {/* 매번 홈화면에서 해딩 컴포넌트를 실행할때마다 Loading표시를 안해줘도된다.
+       React-Query에서 이미 캐시에 있는 데이터를 주기 때문에 매번 로딩표시를 안해도 된다.  */}
     </>
   );
 }
